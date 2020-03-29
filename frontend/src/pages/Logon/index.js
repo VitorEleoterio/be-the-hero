@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiLogIn } from 'react-icons/fi'
 
+import api from '../../services/api'
 
 import './styles.css';
 
